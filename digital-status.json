@@ -382,5 +382,29 @@
     "checkedAt": "2026-11-14",
     "source": "https://dmagazine.docomo.ne.jp/item/c371ee0069c9ff41a15cc63cb506e59b1ad8a4c925a9659c02e54165e25a2744/1000/",
     "memo": "dマガジン公式でanan No.2516の配信日を確認。閲覧期限があるため現在の公開状況は別途確認が必要。No.2525年末特大号およびKEY TO LITの掲載ページの電子版収録は未確認。"
+  },
+  {
+    "title": "andGIRL",
+    "service": "dmag",
+    "issue": "2026年秋号",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": null,
+    "releaseDate": "2026-10-07",
+    "checkedAt": "2026-11-15",
+    "source": "https://dmagazine.docomo.ne.jp/item/2646429121d3265b4bd75f7583dab6427937ea09231dfb8ab615245cb5d3b61e/1000/",
+    "memo": "dマガジン公式の号別ページで配信を確認。通常版の電子配信実績であり、2027年冬号増刊KEY TO LIT表紙版の配信およびKEY TO LIT掲載ページの収録は未確認。紙版発売日は未確認。"
+  },
+  {
+    "title": "andGIRL",
+    "service": "rakuten",
+    "issue": "2026年秋号",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": null,
+    "releaseDate": "2026-10-07",
+    "checkedAt": "2026-11-15",
+    "source": "https://magazine.rakuten.co.jp/issue/A19D0593947A2F6155204B8722487DA2/",
+    "memo": "楽天マガジン公式の号別ページで配信を確認。電子版は通常版のみと明記。2027年冬号増刊KEY TO LIT表紙版の配信およびKEY TO LIT掲載ページの収録は未確認。紙版発売日は未確認。"
   }
 ]
