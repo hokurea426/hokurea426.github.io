@@ -334,5 +334,53 @@
     "checkedAt": "2026-11-13",
     "source": "https://magazine.rakuten.co.jp/issue/96F7CB0C7499EFE124446EEB4B07A756/",
     "memo": "今号は未確認。過去号の配信日 2026-11-09 のみ確認"
+  },
+  {
+    "title": "anan",
+    "service": "rakuten",
+    "issue": "2026年11月18日号 No.2519",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-18",
+    "releaseDate": "2026-11-11",
+    "checkedAt": "2026-11-14",
+    "source": "https://magazine.rakuten.co.jp/issue/41BCCC4154EF711BEB616ABEB0D4A33D/",
+    "memo": "楽天マガジン公式でanan No.2519の配信日を確認。No.2525年末特大号およびKEY TO LITの掲載ページの電子版収録は未確認。"
+  },
+  {
+    "title": "anan",
+    "service": "rakuten",
+    "issue": "2026年11月11日号 No.2518",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-11",
+    "releaseDate": "2026-11-04",
+    "checkedAt": "2026-11-14",
+    "source": "https://magazine.rakuten.co.jp/issue/D2F8F88CC11DC10E63DCE056F1924916/",
+    "memo": "楽天マガジン公式でanan No.2518の配信日を確認。No.2525年末特大号およびKEY TO LITの掲載ページの電子版収録は未確認。"
+  },
+  {
+    "title": "anan",
+    "service": "dmag",
+    "issue": "2026年11月4日号 No.2517",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-04",
+    "releaseDate": "2026-10-28",
+    "checkedAt": "2026-11-14",
+    "source": "https://dmagazine.docomo.ne.jp/item/729da4b08b064ca5c72b679fe5d0fec1fe5e3b1423d2972a3471a4174748abb1/1000/",
+    "memo": "dマガジン公式でanan No.2517の配信日を確認。No.2525年末特大号およびKEY TO LITの掲載ページの電子版収録は未確認。"
+  },
+  {
+    "title": "anan",
+    "service": "dmag",
+    "issue": "2026年10月28日号 No.2516",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-10-28",
+    "releaseDate": "2026-10-21",
+    "checkedAt": "2026-11-14",
+    "source": "https://dmagazine.docomo.ne.jp/item/c371ee0069c9ff41a15cc63cb506e59b1ad8a4c925a9659c02e54165e25a2744/1000/",
+    "memo": "dマガジン公式でanan No.2516の配信日を確認。閲覧期限があるため現在の公開状況は別途確認が必要。No.2525年末特大号およびKEY TO LITの掲載ページの電子版収録は未確認。"
   }
 ]
