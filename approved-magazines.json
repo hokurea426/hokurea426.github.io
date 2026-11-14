@@ -19,5 +19,52 @@
     "bonus": null,
     "bonusText": "付録：未確認",
     "source": "https://hoshinoshoten.raku-uru.jp/item-detail/1987068"
+  },
+  {
+    "id": "approved-anan-2525-20261223",
+    "name": "anan",
+    "issue": "No.2525",
+    "edition": "年末特大号",
+    "date": "2026-12-23",
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "inside",
+    "price": null,
+    "types": [
+      "award"
+    ],
+    "summary": "「anan AWARD 2026」の年末特大号。授賞式に登壇したKEY TO LITが掲載予定。特殊加工表紙・SPグラビアを予定している号で、KEY TO LITの表紙登場や掲載範囲は未確認。",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連の付録・ピンナップは未確認。",
+    "source": "https://ananweb.jp/categories/entertainment/116496"
+  },
+  {
+    "id": "approved-aera-20261207",
+    "name": "AERA",
+    "issue": "2026年12月7日号",
+    "edition": "通常版",
+    "date": "2026-11-30",
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "front",
+    "price": null,
+    "types": [
+      "interview",
+      "photo"
+    ],
+    "summary": "KEY TO LITが表紙＆インタビューに登場。表紙撮影は蜷川実花。掲載ページ数・付録・電子版の収録状況は未確認。",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連のピンナップ・カード・付録は未確認。",
+    "source": "https://a.r10.to/TZsHoR"
   }
 ]
