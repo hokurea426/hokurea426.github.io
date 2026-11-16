@@ -406,5 +406,17 @@
     "checkedAt": "2026-11-15",
     "source": "https://magazine.rakuten.co.jp/issue/A19D0593947A2F6155204B8722487DA2/",
     "memo": "楽天マガジン公式の号別ページで配信を確認。電子版は通常版のみと明記。2027年冬号増刊KEY TO LIT表紙版の配信およびKEY TO LIT掲載ページの収録は未確認。紙版発売日は未確認。"
+  },
+  {
+    "title": "美ST",
+    "service": "rakuten",
+    "issue": "2027年1月号",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-17",
+    "releaseDate": "2026-11-17",
+    "checkedAt": "2026-11-17",
+    "source": "https://magazine.rakuten.co.jp/issue/2A82F19F4C6E2F46DE44857AD25B9093/",
+    "memo": "楽天マガジン公式の号別ページで2026/11/17配信を確認。電子版の版種は明示されず、紙の特別版・通常版・増刊との同一性およびKEY TO LIT掲載ページの収録は未確認。デジタル版には紙版と異なる内容があり付録は付かない。"
   }
 ]
