@@ -159,6 +159,21 @@
     .digital-list-controls{margin:14px 0}
     @media(max-width:760px){.digital-issue-list{grid-template-columns:1fr}.mobile-tab{font-size:11px;padding:8px 2px}.mag-accordion-summary{padding:12px;gap:9px}.mag-accordion-primary strong{font-size:13px}}
   
+    /* 同一号の表紙・版は1カード、内側で版ごとの購入管理 */
+    .issue-accordion>.mag-accordion-body{padding:12px 14px 15px}
+    .issue-variants{display:inline-flex;align-self:flex-start;background:#eef2f8;border-radius:999px;color:#465976;padding:2px 9px;font-size:11px;font-weight:800;margin-top:2px}
+    .issue-choice-note{font-size:11px;color:var(--muted);margin:0 0 9px}
+    .edition-fold{background:#fcfdfd;border:1px solid var(--line);border-radius:10px;margin:8px 0;overflow:hidden}
+    .edition-fold[open]{border-color:#b8c6d8}
+    .edition-fold-summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:12px 13px}
+    .edition-fold-summary::-webkit-details-marker{display:none}
+    .edition-fold-title{font-size:12px;font-weight:800;flex:1;min-width:0;overflow-wrap:anywhere;line-height:1.55}
+    .edition-fold-status{font-size:10px;color:var(--muted);white-space:nowrap}
+    .edition-fold-arrow{font-size:19px;color:var(--muted);transition:transform .2s}
+    .edition-fold[open] .edition-fold-arrow{transform:rotate(180deg)}
+    .edition-fold-body{padding:13px;border-top:1px solid var(--line);background:white}
+    @media(max-width:480px){.edition-fold-summary{flex-wrap:wrap}.edition-fold-title{flex-basis:100%}.edition-fold-status{margin-left:auto}}
+
 /* Member colors: Iwasaki white, Inoue red, Nakamura pink, Igari green, Sasaki turquoise-blue. */
 :root{--bg:#f9fafb;--ink:#29343e;--muted:#66727c;--line:#e1e5e9;--green:#315d4b;--green-soft:#eaf3ee;--chip:#f2f4f6;--focus:#367aab}
 .topbar{background:rgba(249,250,251,.97);}
@@ -377,9 +392,9 @@
 <div class="notice hide" id="storageNotice" role="alert" aria-live="polite"></div>
 <section id="discoverView">
   <div class="stats" aria-label="掲載情報の概要">
-    <div class="stat"><span class="stat-value" id="totalCount">—</span><span class="stat-label">掲載情報の総数（表紙・付録を含む）</span></div>
-    <div class="stat"><span class="stat-value" id="coverCount">—</span><span class="stat-label">うち表紙掲載</span></div>
-    <div class="stat"><span class="stat-value" id="bonusCount">—</span><span class="stat-label">うち関連付録あり</span></div>
+    <div class="stat"><span class="stat-value" id="totalCount">—</span><span class="stat-label">掲載予定の雑誌（号数）</span></div>
+    <div class="stat"><span class="stat-value" id="coverCount">—</span><span class="stat-label">うち表紙掲載（号数）</span></div>
+    <div class="stat"><span class="stat-value" id="bonusCount">—</span><span class="stat-label">うち関連付録あり（号数）</span></div>
   </div>
   <div class="section-head"><div><h2>雑誌を探す</h2><p>条件を組み合わせて、欲しい一冊を見つけよう。</p></div><span class="minor" id="resultCount"></span></div>
   <section class="filters" aria-label="絞り込み条件">
@@ -700,24 +715,43 @@ function renderDigitalList(){
  root.innerHTML=groups.length?groups.join(''):'<div class="empty"><strong>この条件に当てはまる雑誌はありません</strong><p>'+emptyMessage+'</p></div>';
 
 }
+// 表紙違いや地域版も同じ号なら1件として数え、版別のID・購入記録は維持する。
+function issueCount(items){return new Set(items.map(groupKey)).size;}
+function magazineEditionBody(m){
+ const entry=entryFor(m.id);
+ return '<div class="card-top"><span class="date-label">'+escapeHtml(dateLabel(m.date))+' 発売</span><span class="price">'+yen(m.price)+'</span></div><div class="tags" style="margin:10px 0">'+tagsFor(m)+'</div><p class="card-desc">'+escapeHtml(m.summary)+'</p>'+cardDigitalSummary(m)+purchaseDrawer(m)+'<div class="card-bottom"><span class="'+(entry.status==='none'?'minor':'card-saved')+'">'+(entry.status==='none'?'未登録':'管理中：'+escapeHtml(shortStatus(entry.status)))+'</span><div style="display:flex;gap:7px;flex-wrap:wrap"><button class="btn secondary small" data-open="'+escapeHtml(m.id)+'">詳細</button><button class="btn small" data-manage="'+escapeHtml(m.id)+'">管理する</button></div></div>';
+}
 function renderMagazines(){
  const allUpcoming=MAGAZINES.filter(m=>m.date>=todayTokyo()&&m.featureStatus!=='unconfirmed');
- $('#totalCount').textContent=allUpcoming.length;
- $('#coverCount').textContent=allUpcoming.filter(m=>m.cover==='front').length;
- $('#bonusCount').textContent=allUpcoming.filter(m=>m.bonus===true).length;
- const data=getFiltered();$('#resultCount').textContent=data.length+'件（掲載情報確認中を含む）';
+ $('#totalCount').textContent=issueCount(allUpcoming);
+ $('#coverCount').textContent=issueCount(allUpcoming.filter(m=>m.cover==='front'));
+ $('#bonusCount').textContent=issueCount(allUpcoming.filter(m=>m.bonus===true));
+ const data=getFiltered();
+ $('#resultCount').textContent=issueCount(data)+'号（掲載情報確認中を含む）';
  const root=$('#magResults');
  if(!data.length){root.innerHTML='<div class="empty"><strong>該当する雑誌がありません</strong><p>条件をゆるめて、もう一度探してみてください。特に電子版の収録状況は未確認のものが多くあります。</p><button class="btn secondary" data-reset="1">条件をクリアする</button></div>';return;}
- const groups=[];
- for(const m of data){const key=groupKey(m);const last=groups[groups.length-1];if(last&&last.key===key)last.items.push(m);else groups.push({key,items:[m]});}
+ const groups=[];const byIssue=new Map();
+ for(const m of data){const key=groupKey(m);if(!byIssue.has(key)){const group={key,items:[]};byIssue.set(key,group);groups.push(group);}byIssue.get(key).items.push(m);}
  root.innerHTML=groups.map(g=>{
   const first=g.items[0];
-  const heading=g.items.length>1?'<div class="mag-group-heading"><h3>'+escapeHtml(magazineFamily(first)+' '+first.issue)+'</h3><span class="pill">'+g.items.length+'種類の版</span></div>':'';
-  const cards=g.items.map(m=>{const entry=entryFor(m.id);
-    const who=m.members.length===5?'KEY TO LIT（5人）':m.members.join('・');
-    const label=m.featureStatus==='unconfirmed'?'掲載情報確認中':coverText(m);
-    return '<details class="mag-accordion"><summary class="mag-accordion-summary"><span class="mag-accordion-date">'+escapeHtml(dateLabel(m.date))+'</span><span class="mag-accordion-primary"><strong>'+escapeHtml(m.name+' '+m.issue)+'</strong><small>'+escapeHtml(m.edition)+' ／ '+escapeHtml(who)+' ／ '+escapeHtml(label)+'</small></span><span class="mag-accordion-open">詳細・電子版を見る</span><span class="mag-accordion-arrow" aria-hidden="true">⌄</span></summary><div class="mag-accordion-body"><div class="card-top"><span class="date-label">'+escapeHtml(dateLabel(m.date))+' 発売</span><span class="price">'+yen(m.price)+'</span></div><div class="tags" style="margin:10px 0">'+tagsFor(m)+'</div><p class="card-desc">'+escapeHtml(m.summary)+'</p>'+cardDigitalSummary(m)+purchaseDrawer(m)+'<div class="card-bottom"><span class="'+(entry.status==='none'?'minor':'card-saved')+'">'+(entry.status==='none'?'未登録':'管理中：'+escapeHtml(shortStatus(entry.status)))+'</span><div style="display:flex;gap:7px"><button class="btn secondary small" data-open="'+escapeHtml(m.id)+'">詳細</button><button class="btn small" data-manage="'+escapeHtml(m.id)+'">管理する</button></div></div></div></details>';}).join('');
-  return '<section class="mag-group" aria-label="'+escapeHtml(magazineFamily(first)+' '+first.issue)+'">'+heading+'<div class="group-grid">'+cards+'</div></section>';
+  const title=escapeHtml(magazineFamily(first)+' '+first.issue);
+  const date=escapeHtml(dateLabel(first.date));
+  const who=first.members.length===5?'KEY TO LIT（5人）':first.members.join('・');
+  const membersLabel=escapeHtml(who);
+  if(g.items.length===1){
+   const m=first;
+   const label=m.featureStatus==='unconfirmed'?'掲載情報確認中':coverText(m);
+   return '<section class="mag-group" aria-label="'+title+'"><div class="group-grid"><details class="mag-accordion"><summary class="mag-accordion-summary"><span class="mag-accordion-date">'+date+'</span><span class="mag-accordion-primary"><strong>'+title+'</strong><small>'+escapeHtml(m.edition)+' ／ '+membersLabel+' ／ '+escapeHtml(label)+'</small></span><span class="mag-accordion-open">詳細・電子版を見る</span><span class="mag-accordion-arrow" aria-hidden="true">⌄</span></summary><div class="mag-accordion-body">'+magazineEditionBody(m)+'</div></details></div></section>';
+  }
+  const frontCount=g.items.filter(m=>m.cover==='front').length;
+  const variantLabel=frontCount>1?'表紙'+frontCount+'種類':g.items.length+'種類の版';
+  const featureLabel=g.items.some(m=>m.cover==='front')?'表紙あり':g.items.every(m=>m.featureStatus==='unconfirmed')?'掲載情報確認中':'誌面掲載';
+  const editions=g.items.map(m=>{
+    const entry=entryFor(m.id);
+    const status=entry.status==='none'?'未登録':'管理中：'+shortStatus(entry.status);
+    return '<details class="edition-fold"><summary class="edition-fold-summary"><span class="edition-fold-title">'+escapeHtml(m.edition)+'</span><span class="edition-fold-status">'+escapeHtml(status)+'</span><span class="edition-fold-arrow" aria-hidden="true">⌄</span></summary><div class="edition-fold-body">'+magazineEditionBody(m)+'</div></details>';
+  }).join('');
+  return '<section class="mag-group" aria-label="'+title+'"><div class="group-grid"><details class="mag-accordion issue-accordion"><summary class="mag-accordion-summary"><span class="mag-accordion-date">'+date+'</span><span class="mag-accordion-primary"><strong>'+title+'</strong><small>'+membersLabel+' ／ '+escapeHtml(featureLabel)+'</small><span class="issue-variants">'+escapeHtml(variantLabel)+'</span></span><span class="mag-accordion-open">表紙・版を選ぶ</span><span class="mag-accordion-arrow" aria-hidden="true">⌄</span></summary><div class="mag-accordion-body"><p class="issue-choice-note">種類ごとに詳細・電子版・購入状況を確認できます。</p>'+editions+'</div></details></div></section>';
  }).join('');
 }
 function renderMy(){const warn=$('#myStorageWarning');warn.classList.toggle('hide',canPersist);const vals=MAGAZINES.filter(m=>entryFor(m.id).status!=='none');$('#myWant').textContent=vals.filter(m=>entryFor(m.id).status==='wishlist').length;$('#myWaiting').textContent=vals.filter(m=>['reserved','ordered'].includes(entryFor(m.id).status)).length;$('#myReceived').textContent=vals.filter(m=>entryFor(m.id).status==='received').length;let arr=vals.filter(m=>{const f=$('#myStatusFilter').value;const s=entryFor(m.id).status;return f==='all'||(f==='waiting'&&['reserved','ordered'].includes(s))||s===f}).sort((a,b)=>compareMagazine(a,b,'asc'));const list=$('#myList');if(!arr.length){list.innerHTML='<div class="empty"><strong>まだ登録した雑誌はありません</strong><p>「雑誌を探す」から「管理する」を押して、購入状況を登録してみてください。</p><button class="btn" id="myGoDiscover">雑誌を探す</button></div>';return;}
