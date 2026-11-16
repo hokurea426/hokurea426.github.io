@@ -877,5 +877,35 @@
     "bonus": null,
     "source": "https://books.rakuten.co.jp/rb/18896528/",
     "publicVisible": true
+  },
+  {
+    "types": [
+      "photo"
+    ],
+    "interviewStatus": "unknown",
+    "featureStatus": "confirmed",
+    "bonusText": "KEY TO LITが表紙・巻頭に登場。佐々木大光は療養中のため取材を欠席。KEY TO LIT関連の付録・ピンナップは未確認。",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "2026年11月16日時点、CHEER Vol.76の電子版配信・予約、KEY TO LIT掲載ページの電子版収録は未確認。配信なしとは判定しない。",
+    "summary": "KEY TO LITが表紙・巻頭に登場。佐々木大光は療養中のため取材を欠席。",
+    "details": "2026年11月16日、CHEERの情報解禁告知画像で表紙・巻頭および佐々木大光の取材欠席を確認。発売日・価格・ISBNは楽天ブックス掲載情報で確認。掲載ページ数と付録、電子版配信は未確認。",
+    "shop": "https://a.r10.to/hgGwdl",
+    "id": "cheer-202612-vol76",
+    "name": "CHEER",
+    "issue": "Vol.76",
+    "edition": "通常版",
+    "date": "2026-12-01",
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥"
+    ],
+    "cover": "front",
+    "price": 1320,
+    "bonus": null,
+    "source": "https://a.r10.to/hgGwdl",
+    "publicVisible": true
   }
 ]
