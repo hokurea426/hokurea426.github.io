@@ -920,7 +920,15 @@ function bindEvents(){
  $('#myList').addEventListener('click',e=>{const b=e.target.closest('[data-manage]');if(b){openDialog(b.dataset.manage,true);return;}if(e.target.closest('#myGoDiscover'))showTab('discover')});$('#myStatusFilter').addEventListener('change',renderMy);
  $('#dialogBody').addEventListener('click',e=>{const btn=e.target.closest('[data-digital-jump]');if(!btn)return;$('#itemDialog').close();showTab('digital');$('#researchDrawer').open=true;$('#digitalTitle').value=btn.dataset.digitalJump;renderDigitalHistory();$('#digitalResearch').scrollIntoView({behavior:'smooth',block:'start'})}); $('#closeDialog').addEventListener('click',()=>$('#itemDialog').close());$('#itemDialog').addEventListener('click',e=>{if(e.target===$('#itemDialog'))$('#itemDialog').close()});$('#dialogBody').addEventListener('submit',e=>{if(e.target.matches('#purchaseForm'))saveFromForm(e)});$('#dialogBody').addEventListener('click',e=>{if(e.target.closest('#modalToMy')){$('#itemDialog').close();showTab('my')}});
  $('#quickBackupBtn').addEventListener('click',downloadBackup);$('#exportBtn').addEventListener('click',downloadBackup);$('#importBtn').addEventListener('click',()=>$('#importInput').click());$('#importInput').addEventListener('change',e=>restoreBackup(e.target.files[0]));}
-function init(){load();initDigitalHistory();activeTab=tabFromHash()||'discover';bindEvents();renderMemberChips();renderMagazines();renderDigitalList();renderMy();renderCalendar();applyNav();}
+// Xなどの告知URL ?magazine=既存ID から、保存データを変更せず詳細を開きます。
+function openMagazineFromLink(){
+ const id=new URLSearchParams(location.search).get('magazine');
+ if(!id||!/^[a-zA-Z0-9-]{3,100}$/.test(id))return;
+ if(!MAGAZINES.some(m=>m.id===id))return;
+ if(activeTab!=='discover')showTab('discover');
+ openDialog(id);
+}
+function init(){load();initDigitalHistory();activeTab=tabFromHash()||'discover';bindEvents();renderMemberChips();renderMagazines();renderDigitalList();renderMy();renderCalendar();applyNav();openMagazineFromLink();}
 // 公開データは「承認」済みのJSONだけ。取得不可なら従来の一覧で動作します。
 async function loadApprovedMagazines(){
   try{
