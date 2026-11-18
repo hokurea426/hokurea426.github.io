@@ -907,5 +907,34 @@
     "bonus": null,
     "source": "https://a.r10.to/hgGwdl",
     "publicVisible": true
+  },
+  {
+    "id": "tvfan-202701",
+    "name": "TVfan",
+    "issue": "2027年1月号",
+    "edition": "全国版（関西版あり）",
+    "date": "2026-11-24",
+    "price": 640,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "front",
+    "types": [],
+    "interviewStatus": "unknown",
+    "featureStatus": "confirmed",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連のピンナップ・カードなどの付録は未確認。",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "2027年1月号の電子版配信・KEY TO LIT掲載ページ収録は未確認。前号2026年12月号には楽天Koboの単品電子版の販売実績あり（2026年11月13日発売）。電子版は紙版と内容が異なる場合があります。",
+    "summary": "KEY TO LITが表紙・巻頭グラビアに登場。2027年1月号は11月24日発売、640円。全国版のほか関西版も販売予定。",
+    "details": "KEY TO LIT表紙・巻頭グラビアは2026年11月18日に共有された告知画像に基づく情報。全国版・関西版は別の販売商品で、両版の表紙写真・誌面の違いは未確認。KEY TO LIT関連ページ数・付録・電子版掲載は未確認。発売日・価格・全国版のJAN（4912165090177）は販売店情報で確認済み。",
+    "source": "https://www.yodobashi.com/product/100000009004314440/",
+    "shop": "https://www.yodobashi.com/product/100000009004314440/",
+    "publicVisible": true
   }
 ]
