@@ -967,5 +967,36 @@
     "source": "https://x.com/Best_Stage",
     "shop": "https://www.yodobashi.com/product/100000009004315008/",
     "publicVisible": true
+  },
+  {
+    "id": "scawaii-202702-normal",
+    "name": "S Cawaii!",
+    "issue": "2027年2月号",
+    "edition": "通常版",
+    "date": "2026-12-17",
+    "price": null,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥"
+    ],
+    "cover": "front",
+    "types": [
+      "interview",
+      "photo"
+    ],
+    "interviewStatus": "yes",
+    "featureStatus": "confirmed",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連の付録・購入特典は未確認。",
+    "pages": 12,
+    "digital": "unknown",
+    "digitalNote": "2027年2月号の電子版配信・KEY TO LIT掲載ページ収録は未確認。",
+    "summary": "KEY TO LITの4人が通常版表紙＆巻頭12ページ大特集に登場。ソロ2ページずつ、集合企画とロングインタビュー、もこもこグランジファッション。佐々木大光は療養中のため今回の取材に不参加。",
+    "details": "S Cawaii!編集部の2026年11月19日発表によると、通常版表紙＆巻頭12ページ大特集。ソロページは4人それぞれ2ページ。ファンへの思い、これまで・これからの旅路、撮影エピソードなどを紹介。衣装テーマは「もこもこグランジファッション」。佐々木大光は療養中につき取材不参加。特別版の表紙、価格、付録、電子版収録内容は未確認。",
+    "source": "https://scawaiiweb.com/hyoshi261119",
+    "shop": "https://tower.jp/item/8211955",
+    "publicVisible": true
   }
 ]
