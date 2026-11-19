@@ -467,14 +467,14 @@
       "interview",
       "photo"
     ],
-    "interviewStatus": "unknown",
+    "interviewStatus": "yes",
     "featureStatus": "confirmed",
-    "bonusText": "KEY TO LIT表紙。「僕らはまだ、旅の途中。」特集、撮り下ろし写真・特集記事。スペシャル厚紙カードと表紙風・ドライブ風カット。",
-    "pages": null,
+    "bonusText": "KEY TO LIT両A面厚紙フォトピンナップ（とじ込み付録）。表紙風カットと、助手席にいるようなドライブ風カットの2面構成。通常版・特別版共通。",
+    "pages": 8,
     "digital": "unknown",
     "digitalNote": "電子版の対象ページは未確認",
-    "summary": "KEY TO LIT表紙。「僕らはまだ、旅の途中。」と題した特集が案内されています。",
-    "details": "内容・付録の細部は出版社の確定情報が出た際に再確認してください。",
+    "summary": "KEY TO LITが特別版の表紙に登場。8ページの「旅」をテーマにした撮り下ろし・集合インタビュー「目指した場所のその先へ 僕らはまだ、旅の途中」。両A面厚紙フォトピンナップ付き。",
+    "details": "グループとしてBAILA初登場・初表紙。5人それぞれの旅の思い出やデビュー後に行きたい場所、ファンへの思いを語る。車を使った撮影も実施。特別版と通常版は表紙以外の掲載内容が共通。価格990円（税込）、2026年11月28日発売。電子版のKEY TO LIT掲載ページ・ピンナップ収録は未確認。",
     "shop": "https://www.yodobashi.com/product/100000009004313824/",
     "id": "baila-202701-special",
     "name": "BAILA",
@@ -491,7 +491,7 @@
     ],
     "cover": "front",
     "bonus": true,
-    "source": "https://books.rakuten.co.jp/rb/18883344/",
+    "source": "https://www.crank-in.net/news/194554/1",
     "publicVisible": true
   },
   {
@@ -735,15 +735,18 @@
     "publicVisible": true
   },
   {
-    "types": [],
-    "interviewStatus": "unknown",
+    "types": [
+      "interview",
+      "photo"
+    ],
+    "interviewStatus": "yes",
     "featureStatus": "confirmed",
-    "bonusText": "KEY TO LITスペシャル厚紙カード（とじ込み）。グループ表紙は増刊版のみ。",
-    "pages": null,
+    "bonusText": "KEY TO LIT両A面厚紙フォトピンナップ（とじ込み付録）。表紙風カットとドライブ風カットの2面構成。特別版と共通。",
+    "pages": 8,
     "digital": "unknown",
     "digitalNote": "電子版の配信・掲載ページは未確認",
-    "summary": "詳しくは情報元をご確認ください。",
-    "details": "",
+    "summary": "通常版の表紙は井桁弘恵。誌面にはKEY TO LITの8ページの「旅」をテーマにした撮り下ろし・集合インタビューを掲載。KEY TO LIT両A面厚紙ピンナップも付く。",
+    "details": "グループとしてBAILA初登場。特別版と通常版の掲載内容は表紙以外共通。KEY TO LITの表紙を希望する場合は特別版を選択。価格990円（税込）、2026年11月28日発売。電子版のKEY TO LIT掲載ページ・ピンナップ収録は未確認。",
     "shop": "https://www.yodobashi.com/product/100000009004313823/",
     "id": "baila-202701-normal",
     "name": "BAILA",
@@ -760,7 +763,7 @@
     "cover": "inside",
     "price": 990,
     "bonus": true,
-    "source": "https://www.yodobashi.com/product/100000009004313823/",
+    "source": "https://www.crank-in.net/news/194554/1",
     "publicVisible": true
   },
   {
