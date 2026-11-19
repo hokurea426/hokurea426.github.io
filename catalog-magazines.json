@@ -998,5 +998,36 @@
     "source": "https://scawaiiweb.com/hyoshi261119",
     "shop": "https://tower.jp/item/8211955",
     "publicVisible": true
+  },
+  {
+    "id": "thetelevision-newyear-2027",
+    "name": "ザテレビジョン",
+    "issue": "お正月超特大号2027",
+    "edition": "通常版",
+    "date": "2026-12-14",
+    "price": null,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "inside",
+    "types": [
+      "photo"
+    ],
+    "interviewStatus": "unknown",
+    "featureStatus": "confirmed",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連の付録・ピンナップ・購入特典は未確認。",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "2027年お正月超特大号の電子版配信とKEY TO LIT掲載ページ収録は未確認。",
+    "summary": "なにわ男子が表紙・巻頭。KEY TO LITはSTARTOタレントグラビア特集に掲載予定。個別メンバーの参加状況・掲載ページ数は未確認。",
+    "details": "2026年11月19日共有の雑誌情報告知画像に基づく。12月14日発売『ザテレビジョン お正月超特大号2027』の表紙・巻頭はなにわ男子。STARTOタレントグラビア特集の掲載グループにKEY TO LITの名前あり。掲載ページ数、個々のメンバーの参加状況、価格、電子版の配信・収録、付録は未確認。",
+    "source": "https://x.com/info__Johnnys",
+    "shop": "https://a.r10.to/h5XlpH",
+    "publicVisible": true
   }
 ]
