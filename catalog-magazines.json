@@ -1060,5 +1060,67 @@
     "source": "https://www.kadokawa.co.jp/product/322512001893/",
     "shop": "https://www.kadokawa.co.jp/product/322512001893/",
     "publicVisible": true
+  },
+  {
+    "types": [
+      "bonus"
+    ],
+    "interviewStatus": "unknown",
+    "featureStatus": "unconfirmed",
+    "bonusText": "KEY TO LIT・Aぇ! group ステッカー",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "電子版にステッカー付録が含まれるか未確認",
+    "summary": "KEY TO LITがステッカー付録に登場。誌面特集の有無は未確認。",
+    "details": "2026年12月22日発売予定。通常版・ちっこい版ともにKEY TO LITステッカー付録の予告あり。版ごとのステッカー絵柄の違いは未確認。",
+    "shop": "https://books.rakuten.co.jp/search?g=007&sitem=4912084010270",
+    "id": "myojo-202702-normal",
+    "name": "Myojo",
+    "issue": "2027年2月号",
+    "edition": "通常版",
+    "date": "2026-12-22",
+    "price": 1090,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "inside",
+    "bonus": true,
+    "source": "https://furoku.net/list/?cat=926",
+    "publicVisible": true
+  },
+  {
+    "types": [
+      "bonus"
+    ],
+    "interviewStatus": "unknown",
+    "featureStatus": "unconfirmed",
+    "bonusText": "KEY TO LIT・Aぇ! group ステッカー",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "電子版にステッカー付録が含まれるか未確認",
+    "summary": "KEY TO LITがステッカー付録に登場。誌面特集の有無は未確認。",
+    "details": "2026年12月22日発売予定。通常版・ちっこい版ともにKEY TO LITステッカー付録の予告あり。版ごとのステッカー絵柄の違いは未確認。",
+    "shop": "https://books.rakuten.co.jp/search?g=007&sitem=4912084020279",
+    "id": "myojo-202702-small",
+    "name": "ちっこいMyojo",
+    "issue": "2027年2月号",
+    "edition": "増刊（小型版）",
+    "date": "2026-12-22",
+    "price": 880,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "inside",
+    "bonus": true,
+    "source": "https://furoku.net/list/?cat=926",
+    "publicVisible": true
   }
 ]
