@@ -1029,5 +1029,36 @@
     "source": "https://x.com/info__Johnnys",
     "shop": "https://a.r10.to/h5XlpH",
     "publicVisible": true
+  },
+  {
+    "id": "gekkan-thetelevision-202702",
+    "name": "月刊ザテレビジョン",
+    "issue": "2027年2月号（新春超特大号）",
+    "edition": "首都圏版",
+    "date": "2026-12-16",
+    "price": 710,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "inside",
+    "types": [
+      "photo"
+    ],
+    "interviewStatus": "unknown",
+    "featureStatus": "confirmed",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連の付録・ピンナップ・特典は未確認。",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "本号の電子版配信およびKEY TO LIT掲載ページの収録は未確認。",
+    "summary": "Snow Manが表紙・巻頭グラビア。KEY TO LITはグラビア企画の掲載グループとして告知。掲載人数・ページ数は未確認。",
+    "details": "2026年11月19日共有の告知画像では、Snow Man表紙・巻頭、KEY TO LITを含むグラビア企画を案内。KADOKAWA公式で首都圏版の発売日2026年12月16日、特別定価710円を確認。地域版によって発売日が異なる可能性あり。掲載人数、ページ数、電子版、特典は未確認。12月14日発売の『ザテレビジョンお正月超特大号2027』とは別商品。",
+    "source": "https://www.kadokawa.co.jp/product/322512001893/",
+    "shop": "https://www.kadokawa.co.jp/product/322512001893/",
+    "publicVisible": true
   }
 ]
