@@ -447,36 +447,62 @@
     "title": "ViVi",
     "issue": "2027年1月号",
     "service": "dmag",
-    "status": "unknown",
+    "status": "yes",
     "pages": "partial",
     "paperDate": "2026-11-20",
-    "releaseDate": "",
-    "checkedAt": "2026-11-20",
-    "source": "",
-    "memo": "2026-11-20 利用者報告：見開き1ページ分のみ収録（利用者のdマガジン誌面確認）。誌面全体の収録ではない。 号別の公式配信URL・電子配信日は未確認。通常版・特別版等の版種は未特定。"
+    "releaseDate": "2026-11-20",
+    "checkedAt": "2026-11-21",
+    "source": "https://dmagazine.docomo.ne.jp/item/a64fe953b4686cae9ffa8bf2eff9c883d55c744586340b436b88e5a7b2b34f92/1000/",
+    "memo": "2026-11-20 利用者報告：見開き1ページ分のみ収録（利用者のdマガジン誌面確認）。誌面全体の収録ではない。  2026-11-21：dマガジン公式号別ページで11/20配信開始を確認。公式説明もKEY TO LIT記事の一部とピンナップの非収録を明記。"
   },
   {
     "title": "Myojo",
     "issue": "2027年1月号",
     "service": "dmag",
-    "status": "unknown",
+    "status": "yes",
     "pages": "yes",
     "paperDate": "2026-11-20",
-    "releaseDate": "",
-    "checkedAt": "2026-11-20",
-    "source": "",
-    "memo": "2026-11-20 利用者報告：KEY TO LITの掲載ページは全ページ収録（利用者のdマガジン誌面確認）。 号別の公式配信URL・電子配信日は未確認。通常版・特別版等の版種は未特定。"
+    "releaseDate": "2026-11-20",
+    "checkedAt": "2026-11-21",
+    "source": "https://dmagazine.docomo.ne.jp/item/b28f9e61f2c2c88a152cc824c7dcd88b414012d415e2372f3485df7ff33a6322/1000/",
+    "memo": "2026-11-20 利用者報告：KEY TO LITの掲載ページは全ページ収録（利用者のdマガジン誌面確認）。  2026-11-21：dマガジン公式号別ページで11/20配信開始を確認。公式目次にKEY TO LIT特集・厚紙カード・裏表紙あり。電子版は通常版のみで、ちっこいMyojoは対象外。全ページの判断は利用者報告。"
   },
   {
     "title": "Ray",
     "issue": "2027年1月号",
     "service": "dmag",
-    "status": "unknown",
+    "status": "yes",
     "pages": "no",
     "paperDate": "2026-11-20",
+    "releaseDate": "2026-11-20",
+    "checkedAt": "2026-11-21",
+    "source": "https://dmagazine.docomo.ne.jp/item/5be1d846c21818ebea098e3e1689896d2702c7fbcc7652f82550fb05d78cd2e4/1000/",
+    "memo": "2026-11-20 利用者報告：KEY TO LITの掲載ページは収録なし（利用者のdマガジン誌面確認）。  2026-11-21：dマガジン公式号別ページで11/20配信開始を確認。公式目次にKEY TO LIT特集の記載なし。非収録の判断は利用者報告。"
+  },
+  {
+    "magazineId": "myojo-202701-small",
+    "title": "ちっこいMyojo",
+    "issue": "2027年1月号",
+    "service": "dmag",
+    "status": "no",
+    "pages": "unknown",
+    "paperDate": "2026-11-20",
     "releaseDate": "",
-    "checkedAt": "2026-11-20",
-    "source": "",
-    "memo": "2026-11-20 利用者報告：KEY TO LITの掲載ページは収録なし（利用者のdマガジン誌面確認）。 号別の公式配信URL・電子配信日は未確認。通常版・特別版等の版種は未特定。"
+    "checkedAt": "2026-11-21",
+    "source": "https://dmagazine.docomo.ne.jp/item/b28f9e61f2c2c88a152cc824c7dcd88b414012d415e2372f3485df7ff33a6322/1000/",
+    "memo": "dマガジン公式号別ページに電子版は通常版のみ、ちっこいMyojo1月号の販売なしと明記。"
+  },
+  {
+    "magazineId": "myojo-202701-normal",
+    "title": "Myojo",
+    "issue": "2027年1月号",
+    "service": "rakuten",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-20",
+    "releaseDate": "",
+    "checkedAt": "2026-11-21",
+    "source": "https://magazine.rakuten.co.jp/title/08401/",
+    "memo": "楽天マガジン公式タイトルページに1月号の紹介・通常版のみの電子版案内あり。配信開始日は公開表示で未確認。KEY TO LITの全掲載ページ収録は未確認。"
   }
 ]
