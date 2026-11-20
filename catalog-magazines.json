@@ -1122,5 +1122,36 @@
     "bonus": true,
     "source": "https://furoku.net/list/?cat=926",
     "publicVisible": true
+  },
+  {
+    "id": "hanako-202702",
+    "name": "Hanako",
+    "issue": "2027年2月号",
+    "edition": "通常版",
+    "date": "2026-12-25",
+    "price": null,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥"
+    ],
+    "cover": "front",
+    "types": [
+      "interview",
+      "photo"
+    ],
+    "interviewStatus": "confirmed",
+    "featureStatus": "confirmed",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連付録は未確認",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "電子版の配信および該当記事の収録状況は未確認",
+    "summary": "KEY TO LITが表紙＋インタビューに登場。「僕らの聖地巡礼。」をテーマに、メンバーにとっての聖地や開運について語る。",
+    "details": "2026年12月25日発売予定。告知画像に「佐々木大光くんは療養中のため取材撮影を欠席」と明記。表紙・取材撮影は4人での参加とみられる。掲載ページ数、価格、電子版は未確認。",
+    "source": "https://x.com/info_Johnnys",
+    "shop": "https://a.r10.to/hYE0q1",
+    "publicVisible": true
   }
 ]
