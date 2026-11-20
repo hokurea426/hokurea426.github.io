@@ -442,5 +442,41 @@
     "checkedAt": "2026-11-18",
     "source": "https://dmagazine.docomo.ne.jp/item/d2f78a162447b846b3959a5297a034c26b594b0dbcb5ae8ba5b7448dab8d36bd/1000/",
     "memo": "dマガジン公式ページで2026/10/23配信を確認。目次にはKEY TO LITの記載あり。ただし実際の誌面は未確認のため対象ページは未確認。2027年1月号の配信は未確認。"
+  },
+  {
+    "title": "ViVi",
+    "issue": "2027年1月号",
+    "service": "dmag",
+    "status": "unknown",
+    "pages": "partial",
+    "paperDate": "2026-11-20",
+    "releaseDate": "",
+    "checkedAt": "2026-11-20",
+    "source": "",
+    "memo": "2026-11-20 利用者報告：見開き1ページ分のみ収録（利用者のdマガジン誌面確認）。誌面全体の収録ではない。 号別の公式配信URL・電子配信日は未確認。通常版・特別版等の版種は未特定。"
+  },
+  {
+    "title": "Myojo",
+    "issue": "2027年1月号",
+    "service": "dmag",
+    "status": "unknown",
+    "pages": "yes",
+    "paperDate": "2026-11-20",
+    "releaseDate": "",
+    "checkedAt": "2026-11-20",
+    "source": "",
+    "memo": "2026-11-20 利用者報告：KEY TO LITの掲載ページは全ページ収録（利用者のdマガジン誌面確認）。 号別の公式配信URL・電子配信日は未確認。通常版・特別版等の版種は未特定。"
+  },
+  {
+    "title": "Ray",
+    "issue": "2027年1月号",
+    "service": "dmag",
+    "status": "unknown",
+    "pages": "no",
+    "paperDate": "2026-11-20",
+    "releaseDate": "",
+    "checkedAt": "2026-11-20",
+    "source": "",
+    "memo": "2026-11-20 利用者報告：KEY TO LITの掲載ページは収録なし（利用者のdマガジン誌面確認）。 号別の公式配信URL・電子配信日は未確認。通常版・特別版等の版種は未特定。"
   }
 ]
