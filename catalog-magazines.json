@@ -1153,5 +1153,36 @@
     "source": "https://x.com/info_Johnnys",
     "shop": "https://a.r10.to/hYE0q1",
     "publicVisible": true
+  },
+  {
+    "id": "tvnavi-202701",
+    "name": "月刊TVnavi",
+    "issue": "2027年1月号",
+    "edition": "通常版",
+    "date": "2026-11-24",
+    "price": null,
+    "members": [
+      "岩﨑大昇",
+      "井上瑞稀",
+      "中村嶺亜",
+      "猪狩蒼弥",
+      "佐々木大光"
+    ],
+    "cover": "front",
+    "types": [
+      "photo"
+    ],
+    "interviewStatus": "unknown",
+    "featureStatus": "unconfirmed",
+    "bonus": null,
+    "bonusText": "KEY TO LIT関連付録は未確認",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "電子版の配信とKEY TO LIT掲載状況は未確認",
+    "summary": "KEY TO LITが2027年1月号の表紙に登場。誌面の詳細は未確認。",
+    "details": "2026年11月24日発売予定。告知画像でKEY TO LITの表紙を確認。掲載ページ数、インタビューの有無、撮影参加メンバー、価格、付録は未確認。",
+    "source": "https://x.com/info_Johnnys",
+    "shop": null,
+    "publicVisible": true
   }
 ]
