@@ -590,15 +590,18 @@
     "publicVisible": true
   },
   {
-    "types": [],
-    "interviewStatus": "unknown",
+    "types": [
+      "interview",
+      "photo"
+    ],
+    "interviewStatus": "confirmed",
     "featureStatus": "confirmed",
     "bonusText": "KEY TO LIT表紙。カラー巻頭特集、日本語訳付き。",
     "pages": null,
     "digital": "unknown",
     "digitalNote": "電子版の配信および対象ページは未確認",
-    "summary": "表紙・カラー巻頭特集",
-    "details": "運営者が出典を確認し、承認した追加情報です。",
+    "summary": "KEY TO LIT表紙・カラー巻頭特集（日本語訳付き）。CDデビュー、新曲、今後の野望、佐々木大光へのメッセージ、オリジナル衣装グラビア、イベント＆ライブレポート。表紙企画は4人、レポートは5人掲載。",
+    "details": "運営者が出典を確認し、承認した追加情報です。 2026年11月21日提供の告知画像による詳細追記：表紙企画は4名出演、イベント＆ライブレポートは5名掲載。表紙には佐々木大光を感じられる要素もあるとの予告。掲載ページ数は未確認。追加情報の出典：https://x.com/info_Johnnys",
     "shop": "https://hoshinoshoten.raku-uru.jp/item-detail/1987068",
     "id": "approved-f4359ab28ef1da517bd91f90",
     "name": "Eye-Ai＋",
