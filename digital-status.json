@@ -500,9 +500,33 @@
     "status": "yes",
     "pages": "unknown",
     "paperDate": "2026-11-20",
-    "releaseDate": "",
-    "checkedAt": "2026-11-21",
-    "source": "https://magazine.rakuten.co.jp/title/08401/",
-    "memo": "楽天マガジン公式タイトルページに1月号の紹介・通常版のみの電子版案内あり。配信開始日は公開表示で未確認。KEY TO LITの全掲載ページ収録は未確認。"
+    "releaseDate": "2026-11-20",
+    "checkedAt": "2026-11-22",
+    "source": "https://magazine.rakuten.co.jp/issue/8812DD7D7721C99CF77200BC40D7EA53/",
+    "memo": "楽天マガジン公式タイトルページに1月号の紹介・通常版のみの電子版案内あり。配信開始日は公開表示で未確認。KEY TO LITの全掲載ページ収録は未確認。 ／ 2026-11-22：公式号別ページで11/20配信開始・2027/02/21 23:30終了を確認（以前は開始日未確認）。"
+  },
+  {
+    "title": "ViVi",
+    "issue": "2027年1月号",
+    "service": "rakuten",
+    "status": "yes",
+    "pages": "partial",
+    "paperDate": "2026-11-20",
+    "releaseDate": "2026-11-20",
+    "checkedAt": "2026-11-22",
+    "source": "https://magazine.rakuten.co.jp/biz/issue/67A5C68ABD65854FF2D46002E7B310B6/",
+    "memo": "公式号別ページで11/20配信開始・2027/02/19 23:30終了。通常版表紙の案内あり。公式説明でKEY TO LIT記事の一部とピンナップが非収録と明記。収録ページ数は未確認。紙の各版と同一とは断定しない。"
+  },
+  {
+    "title": "Ray",
+    "issue": "2027年1月号",
+    "service": "rakuten",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-20",
+    "releaseDate": "2026-11-20",
+    "checkedAt": "2026-11-22",
+    "source": "https://magazine.rakuten.co.jp/issue/6CBF08D61A2E18FCD2AB561AA32F2F14/",
+    "memo": "公式号別ページで11/20配信開始・2027/02/19 23:30終了。電子版の版種・KEY TO LIT掲載ページ収録は未確認。"
   }
 ]
