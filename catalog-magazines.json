@@ -1187,5 +1187,30 @@
     "source": "https://x.com/info_Johnnys",
     "shop": null,
     "publicVisible": true
+  },
+  {
+    "id": "story-202701",
+    "name": "STORY",
+    "issue": "2027年1月号",
+    "edition": "通常版",
+    "date": "2026-12-01",
+    "price": null,
+    "members": [
+      "中村嶺亜"
+    ],
+    "cover": "inside",
+    "types": [],
+    "interviewStatus": "unknown",
+    "featureStatus": "confirmed",
+    "bonus": null,
+    "bonusText": "関連付録は未確認",
+    "pages": null,
+    "digital": "unknown",
+    "digitalNote": "電子版の配信および該当ページの収録状況は未確認",
+    "summary": "中村嶺亜が「超絶男子図鑑DX」に登場。",
+    "details": "2026年11月22日提供の告知画像に基づく掲載情報。2026年12月1日発売予定。ページ数、インタビューの有無、価格、付録、電子版は未確認。",
+    "source": null,
+    "shop": null,
+    "publicVisible": true
   }
 ]
