@@ -528,5 +528,31 @@
     "checkedAt": "2026-11-22",
     "source": "https://magazine.rakuten.co.jp/issue/6CBF08D61A2E18FCD2AB561AA32F2F14/",
     "memo": "公式号別ページで11/20配信開始・2027/02/19 23:30終了。電子版の版種・KEY TO LIT掲載ページ収録は未確認。"
+  },
+  {
+    "magazineId": "tvguide-202701",
+    "title": "月刊TVガイド",
+    "source": "https://dmagazine.docomo.ne.jp/item/b5141fbd2c22b8a29fbcecafa2ea1c4ae6476850dbf02cdcf546ce2abe756138/1000/",
+    "memo": "dマガジン公式号別ページで2026/11/24配信開始を確認。公式目次にKEY TO LITあり、記事ページも公開。ただし掲載ページの全収録は未確認。地域版の差異も未確認。",
+    "issue": "2027年1月号",
+    "service": "dmag",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-24",
+    "releaseDate": "2026-11-24",
+    "checkedAt": "2026-11-24"
+  },
+  {
+    "magazineId": "thetelevision-202701-tokyo",
+    "title": "月刊ザテレビジョン",
+    "source": "https://dmagazine.docomo.ne.jp/item/244544a59667fa6d913f5db697d0e545bf163294679873d883051169c2b34d83/1000/",
+    "memo": "dマガジン公式号別ページで2026/11/24配信開始を確認。公式目次にKEY TO LITあり、記事ページも公開。ただし全ページ収録・電子版の地域版対応は未確認。首都圏版の紙発売日を参照。",
+    "issue": "2027年1月号",
+    "service": "dmag",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-24",
+    "releaseDate": "2026-11-24",
+    "checkedAt": "2026-11-24"
   }
 ]
