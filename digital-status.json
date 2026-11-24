@@ -554,5 +554,30 @@
     "paperDate": "2026-11-24",
     "releaseDate": "2026-11-24",
     "checkedAt": "2026-11-24"
+  },
+  {
+    "title": "月刊TVガイド",
+    "magazineId": "tvguide-202701",
+    "source": "https://magazine.rakuten.co.jp/issue/DE3BA0F832BBF13AB09DA36BFB143ADF/",
+    "memo": "楽天マガジン公式号別ページで11/24配信開始、2027/02/22 23:30終了を確認。紹介文にKEY TO LIT表紙の記載あり。掲載ページの収録範囲・地域版は未確認。",
+    "issue": "2027年1月号",
+    "service": "rakuten",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-24",
+    "releaseDate": "2026-11-24",
+    "checkedAt": "2026-11-25"
+  },
+  {
+    "title": "月刊ザテレビジョン",
+    "source": "https://magazine.rakuten.co.jp/issue/38205386D37884744331AD0DB69B342F/",
+    "memo": "楽天マガジン公式号別ページで11/24配信開始、2027/01/23 23:30終了を確認。紹介文にKEY TO LIT巻頭グラビアの記載あり、一部ページ非掲載の注意書きあり。KEY TO LIT掲載ページの収録範囲・地域版は未確認。",
+    "issue": "2027年1月号",
+    "service": "rakuten",
+    "status": "yes",
+    "pages": "unknown",
+    "paperDate": "2026-11-24",
+    "releaseDate": "2026-11-24",
+    "checkedAt": "2026-11-25"
   }
 ]
