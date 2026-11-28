@@ -708,15 +708,17 @@
     "publicVisible": true
   },
   {
-    "types": [],
-    "interviewStatus": "unknown",
+    "types": [
+      "interview"
+    ],
+    "interviewStatus": "confirmed",
     "featureStatus": "confirmed",
-    "bonusText": "KEY TO LITが表紙。本文の掲載範囲・ページ数・地域版ごとの差異は未確認。",
+    "bonusText": "KEY TO LIT関連付録は未確認。",
     "pages": null,
     "digital": "unknown",
     "digitalNote": "電子版の配信・掲載ページは未確認",
-    "summary": "詳しくは情報元をご確認ください。",
-    "details": "",
+    "summary": "KEY TO LITがTV LIFE初表紙！「A to Z」にちなんだ質問で、メンバーの素顔や今の思いに迫る企画を掲載。",
+    "details": "2026年11月28日提供の告知画像に基づく追記。KEY TO LITは本誌初表紙。A to Zにちなんだ質問企画あり。掲載ページ数、撮影参加メンバー、地域版ごとの差異は未確認。追加情報の出典：https://x.com/info_Johnnys",
     "shop": "https://www.fujisan.co.jp/product/1747/b/list/",
     "id": "tvlife-20261218",
     "name": "TV LIFE",
